@@ -41,6 +41,10 @@ body {
   font-family: "OpenSansRegular";
   src: url("../fonts/OpenSansRegular.ttf") format("truetype");
 }
+@font-face {
+  font-family: "RobotoCondensed";
+  src: url("../fonts/RobotoCondensed-Regular.ttf") format("truetype");
+}
 .container {
   width: 100%;
   padding-right: 15px;
@@ -432,6 +436,7 @@ li {
 }
 .blog-desc {
   text-align: center;
+  line-height: 20px;
   font-size: 15px;
   font-family: "GothamBook", sans-serif;
   margin-bottom: 108px;
@@ -444,8 +449,33 @@ li {
 .cum {
   background-color: #11749e;
 }
-.cum-img {
+.cum-connet {
+  display: flex;
+  align-items: center;
+  gap: 33px;
   margin-top: 112px;
+}
+.cum-img {
+  margin-bottom: 206px;
+}
+.cum-text {
+  color: #ffffff;
+  margin-bottom: 153px;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "GothamBook", sans-serif;
+}
+
+footer {
+  background-color: black;
+}
+
+.footer-relative {
+  color: white;
+  font-family: "RobotoCondensed", sans-serif;
+  font-size: 13px;
+  margin-top: 49px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {

@@ -1,14 +1,19 @@
 .cum{
     background-color: #11749e;
-    &-img{
+    &-connet {
+        display: flex;
+        align-items: center;
+        gap: 33px;
         margin-top: 112px;
     }
-
-    // &-img{
-    //     margin-top: 111px;
-    //     color: #ffffff;
-    //     display: flex;
-    //     gap:32px;
-    //     margin-bottom:153px;
-    // }
+   &-img{
+    margin-bottom:206px;
+   }
+    &-text{
+        color: #ffffff;
+        margin-bottom:153px;
+        font-size: 15px;
+        line-height: 20px;
+        font-family: 'GothamBook', sans-serif;
+    }
 }
