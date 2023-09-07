@@ -4,7 +4,7 @@
 }
 .menu-main{
     display: flex;
-    gap: 0 43px;
+    gap: 0 42px;
     text-decoration: none;
     align-items: center;
     font-size: 18px;
@@ -23,9 +23,9 @@
     margin-left: 53px;
 }
 .menu-link{
- text-decoration: none;  
- color: #d8d8d8;
-//  color: white; 
+    text-decoration: none;  
+    color: #d8d8d8;
+    font-family: 'OpenSansRegular', sans-serif;
 }
 li {
     list-style: none;

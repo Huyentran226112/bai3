@@ -23,12 +23,15 @@
     .agenry {
         padding-top: 38px;
     }
+    .agenry-title {
+        font-size: 22px;
+    }
     
 }
 @media (max-width: 630px) {
     .creative-text {
         line-height: 32px;
-        font-size: 1.5em;
+        font-size: 1.3em;
         letter-spacing: 10px;
     }
 }
@@ -36,4 +39,12 @@
     .creative-title {
         font-size: 3.5em;
     }
+}
+@media (max-width: 911px) {
+    .creative-title {
+        // font-size: 4em;
+    }
+    .header-icon {
+        gap: 0 29px;
+        }
 }

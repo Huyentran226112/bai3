@@ -1,0 +1,33 @@
+.blog{
+    &-title {
+        font-size: 30px;
+        font-family: "GothamBook", sans-serif;
+        text-align: center;
+        margin-bottom: 120px;
+    }
+    &-clean {
+        text-align: center;
+        font-family: 'GothamBook', sans-serif;
+        font-size: 35px;
+        font-weight: 400;
+        margin-bottom: 77px;
+    }
+    &-text{
+        color: #11749e;
+        font-family: 'GothamMedium', sans-serif;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 29px;
+    }
+    &-desc{
+        text-align: center;
+        font-size: 15px;
+        font-family: 'GothamBook', sans-serif;
+        margin-bottom: 108px;
+    }
+    &-icon {
+        margin-bottom: 44px;
+        text-align: center;
+    }
+  
+}

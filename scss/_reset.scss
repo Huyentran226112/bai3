@@ -13,3 +13,28 @@ html {
 body {
   line-height: 1;
 }
+
+@font-face {
+  font-family: "GothamBold";
+  src: url("../fonts/GothamBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GothamBook";
+  src: url("../fonts/GothamBook.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GothamMedium";
+  src: url("../fonts/GothamMedium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BoldCondensed";
+  src: url("../fonts/RobotoCondensed-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSansRegular.ttf") format("truetype");
+}
