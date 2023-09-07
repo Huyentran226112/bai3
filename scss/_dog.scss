@@ -15,11 +15,14 @@
         color: black;
         font-family: 'GothamBook', sans-serif;
         font-size: 15px;
+        line-height: 26px;
+
     }
     &-text1{
         color: black;
         margin-bottom: 118px;
         margin-top: 34px;
+        line-height: 26px;
         font-family: 'GothamBook', sans-serif;
         font-size: 15px;
     }
@@ -30,9 +33,14 @@
         font-size: 13px;
         font-family: 'GothamBook', sans-serif;
     }
-    .dog-date
     &-desc {
         width: 360px;
         height: 100%;
+    }
+    &-img{
+        background-image: url(./image/akita1.png);
+         position: absolute;
+            width: 49.8vw;
+            height: 100%;
     }
 }

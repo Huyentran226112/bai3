@@ -212,10 +212,9 @@ body {
 }
 
 .heading1 {
-  margin-top: 91px;
   font-size: 247px;
   text-align: center;
-  font-family: "BoldCondensed", sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   color: #e2e2e2;
   font-weight: 400;
   margin-bottom: -127px;
@@ -299,7 +298,7 @@ li {
   font-family: "GothamMedium", sans-serif;
   margin-bottom: 115px;
   font-size: 1.8em;
-  letter-spacing: 25.9px;
+  letter-spacing: 17.9px;
 }
 
 .dow {
@@ -336,7 +335,6 @@ li {
   align-items: center;
   margin-bottom: 20px;
   justify-content: center;
-  padding-top: 24px;
 }
 .agenry-list {
   text-align: center;
@@ -359,10 +357,12 @@ li {
   color: white;
   font-family: "GothamBook", sans-serif;
   font-size: 15px;
+  line-height: 26px;
 }
 .akita-text1 {
   color: white;
   margin-top: 34px;
+  line-height: 26px;
   font-family: "GothamBook", sans-serif;
   font-size: 15px;
 }
@@ -375,6 +375,13 @@ li {
 .akita-desc {
   width: 360px;
   height: 100%;
+}
+.akita-img {
+  background-image: url(./image/akita.png);
+  position: absolute;
+  width: 48.5vw;
+  height: 100%;
+  background-size: cover;
 }
 
 .dog {
@@ -394,11 +401,13 @@ li {
   color: black;
   font-family: "GothamBook", sans-serif;
   font-size: 15px;
+  line-height: 26px;
 }
 .dog-text1 {
   color: black;
   margin-bottom: 118px;
   margin-top: 34px;
+  line-height: 26px;
   font-family: "GothamBook", sans-serif;
   font-size: 15px;
 }
@@ -409,8 +418,14 @@ li {
   font-size: 13px;
   font-family: "GothamBook", sans-serif;
 }
-.dog-date .dog-desc {
+.dog-desc {
   width: 360px;
+  height: 100%;
+}
+.dog-img {
+  background-image: url(./image/akita1.png);
+  position: absolute;
+  width: 49.8vw;
   height: 100%;
 }
 
@@ -436,10 +451,9 @@ li {
 }
 .blog-desc {
   text-align: center;
-  line-height: 20px;
+  line-height: 25px;
   font-size: 15px;
   font-family: "GothamBook", sans-serif;
-  margin-bottom: 108px;
 }
 .blog-icon {
   margin-bottom: 44px;
@@ -466,11 +480,11 @@ li {
   font-family: "GothamBook", sans-serif;
 }
 
-footer {
+.footer {
+  background-image: url(./image/footer.png);
   background-color: black;
 }
-
-.footer-relative {
+.footer-copyright {
   color: white;
   font-family: "RobotoCondensed", sans-serif;
   font-size: 13px;
@@ -478,6 +492,55 @@ footer {
   margin-bottom: 30px;
 }
 
+@media (max-width: 1200px) {
+  .header-icon {
+    margin-left: 7px;
+  }
+  .menu-main {
+    margin-left: -97px;
+  }
+}
+@media (max-width: 1110px) {
+  .header-icon {
+    margin-left: 0px;
+  }
+  .logo {
+    margin-left: -11px;
+  }
+  .menu-main {
+    margin-left: -151px;
+  }
+  .creative-title {
+    font-size: 8em;
+  }
+}
+@media (max-width: 991px) {
+  .header-icon {
+    margin-left: 0px;
+  }
+  .logo {
+    margin-left: -70px;
+  }
+  .menu-main {
+    margin-left: -151px;
+  }
+}
+@media (max-width: 938px) {
+  .main-menu {
+    display: none;
+  }
+  .creative {
+    padding-top: 126px;
+  }
+  .creative-text {
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 11.9px;
+  }
+  .logo {
+    margin-left: -10px;
+  }
+}
 @media (max-width: 768px) {
   .main-menu {
     display: none;
@@ -503,6 +566,15 @@ footer {
   .agenry-title {
     font-size: 22px;
   }
+  img.blog-icon {
+    display: none;
+  }
+  .akita-img {
+    display: none;
+  }
+  .blog-text {
+    font-size: 13px;
+  }
 }
 @media (max-width: 630px) {
   .creative-text {
@@ -515,9 +587,7 @@ footer {
   .creative-title {
     font-size: 3.5em;
   }
-}
-@media (max-width: 911px) {
-  .header-icon {
-    gap: 0 29px;
+  .logo {
+    margin-left: 0px;
   }
 }/*# sourceMappingURL=style.css.map */
