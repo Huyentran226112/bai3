@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+   
+}
+@media (max-width: 768px) {
+    .main-menu {
+        display: none;
+    }
+    .creative {
+        padding-top: 121px;
+    }
+    .creative-title {
+        font-size: 5em;
+    }
+    .creative-text {
+        line-height: 32px;
+        font-size: 1.2em;
+    }
+    .agenry-col {
+        flex: 0 0 50%;
+        margin-bottom: 33px;
+        max-width: 50%;
+    }
+    .agenry {
+        padding-top: 38px;
+    }
+    
+}
+@media (max-width: 630px) {
+    .creative-text {
+        line-height: 32px;
+        font-size: 1.5em;
+        letter-spacing: 10px;
+    }
+}
+@media (max-width: 485px) {
+    .creative-title {
+        font-size: 3.5em;
+    }
+}

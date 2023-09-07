@@ -1,0 +1,33 @@
+.main-menu{
+    display: flex;
+    align-items: center;
+}
+.menu-main{
+    display: flex;
+    gap: 0 43px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-icon{
+    display: flex;
+    align-items: center;
+    gap:0 29px;
+    margin-left: 53px;
+}
+.menu-link{
+ text-decoration: none;  
+ color: #d8d8d8;
+//  color: white; 
+}
+li {
+    list-style: none;
+}
+
