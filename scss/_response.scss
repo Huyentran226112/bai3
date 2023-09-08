@@ -3,64 +3,63 @@
         margin-left: 20px;
     }
     .menu-main {
-        margin-left: -97px;
+        margin-left:-100px;
+    }
+    a.menu-link-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1022) {
+    .logo {
+        margin-left: -53px;
     }
 }
 @media (max-width: 1110px) {
     .header-icon {
         margin-left: 26px;
     }
-    .logo {
-            margin-left: -11px;
-        };
     .menu-main {
         margin-left: -151px;
     }
     .creative-title {
         font-size: 8em;
     }
-
+    a.menu-link-mobile {
+        display: none;
+    }
 }
 @media (max-width: 991px) {
     .header-icon {
         margin-left: 20px;
     }
-    .logo {
-            margin-left: -70px;
-        };
+  
     .menu-main {
         margin-left: -151px;
     }
 
 }
 @media (max-width: 938px) {
-//    .main-menu{
-//     display: none;
-//    }
    .creative {
     padding-top: 126px;
+}
+.main-menu {
+    display: none;
 }
 .creative-text {
     text-align: center;
     font-size: 1.5em;
     letter-spacing: 11.9px;
 }
-// .logo {
-//     margin-left: -67px;
-// }
-// .logo {
-//     margin-left: 32px;
-// }
 .header-icon {
     margin-left: 20px;
 }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .main-menu {
         display: none;
     }
-  
     .menu-toggle{
         display: subgrid;
         justify-content: space-between;
@@ -87,14 +86,14 @@
     .agenry-title {
         font-size: 22px;
     }
-    img.blog-icon {
-        display: none;
-    }
-    .akita-img {
-        display: none;
-    }
     .blog-text {
         font-size: 13px;
+    }
+    .cum-text {
+        margin-left: 43px;
+    }
+    .logo {
+        margin-left: -4px;
     }
 }
 @media (max-width: 630px) {

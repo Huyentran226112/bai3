@@ -34,3 +34,18 @@
 li {
     list-style: none;
 }
+a.menu-link-mobile {
+    display: none;
+}
+// .logo {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+// }
+.logo {
+    margin-top: -1px;
+    margin-left: -32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

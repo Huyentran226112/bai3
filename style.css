@@ -19,7 +19,7 @@ body {
 
 @font-face {
   font-family: "GothamBold";
-  src: url("../fonts/GothamBold.ttf") format("truetype");
+  src: url("../fonts/Gotham Bold.otf") format("truetype");
 }
 @font-face {
   font-family: "GothamBook";
@@ -44,6 +44,10 @@ body {
 @font-face {
   font-family: "RobotoCondensed";
   src: url("../fonts/RobotoCondensed-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/Myriad Pro Regular.ttf") format("truetype");
 }
 .container {
   width: 100%;
@@ -215,6 +219,18 @@ li {
   list-style: none;
 }
 
+a.menu-link-mobile {
+  display: none;
+}
+
+.logo {
+  margin-top: -1px;
+  margin-left: -32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header {
   padding-bottom: 15px;
   background: transparent;
@@ -247,10 +263,11 @@ li {
 
 .menu-main {
   display: flex;
-  gap: 0 42px;
+  gap: 0 39px;
   text-decoration: none;
   align-items: center;
   font-size: 18px;
+  font-family: "MyriadProRegular", sans-serif;
   font-weight: 400;
   justify-content: space-between;
 }
@@ -289,12 +306,6 @@ li {
   height: 3px;
   background-color: black;
   display: block;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .creative {
@@ -384,6 +395,7 @@ li {
   font-family: "GothamBook", sans-serif;
   font-size: 15px;
   line-height: 26px;
+  max-width: 421px;
 }
 .akita-text1 {
   color: white;
@@ -453,6 +465,10 @@ li {
   position: absolute;
   width: 49.8vw;
   height: 100%;
+}
+.dog-rghit {
+  text-align: inherit;
+  padding-left: 77px;
 }
 
 .blog {
@@ -534,15 +550,20 @@ li {
     margin-left: 20px;
   }
   .menu-main {
-    margin-left: -97px;
+    margin-left: -100px;
+  }
+  a.menu-link-mobile {
+    display: none;
+  }
+}
+@media (max-width: 1022) {
+  .logo {
+    margin-left: -53px;
   }
 }
 @media (max-width: 1110px) {
   .header-icon {
     margin-left: 26px;
-  }
-  .logo {
-    margin-left: -11px;
   }
   .menu-main {
     margin-left: -151px;
@@ -550,13 +571,13 @@ li {
   .creative-title {
     font-size: 8em;
   }
+  a.menu-link-mobile {
+    display: none;
+  }
 }
 @media (max-width: 991px) {
   .header-icon {
     margin-left: 20px;
-  }
-  .logo {
-    margin-left: -70px;
   }
   .menu-main {
     margin-left: -151px;
@@ -565,6 +586,9 @@ li {
 @media (max-width: 938px) {
   .creative {
     padding-top: 126px;
+  }
+  .main-menu {
+    display: none;
   }
   .creative-text {
     text-align: center;
@@ -575,7 +599,7 @@ li {
     margin-left: 20px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .main-menu {
     display: none;
   }
@@ -605,14 +629,14 @@ li {
   .agenry-title {
     font-size: 22px;
   }
-  img.blog-icon {
-    display: none;
-  }
-  .akita-img {
-    display: none;
-  }
   .blog-text {
     font-size: 13px;
+  }
+  .cum-text {
+    margin-left: 43px;
+  }
+  .logo {
+    margin-left: -4px;
   }
 }
 @media (max-width: 630px) {
