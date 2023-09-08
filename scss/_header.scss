@@ -1,19 +1,18 @@
 .header {
-    padding-bottom: 15px;
     background: transparent;
     border-bottom: 1px solid;
-    padding-top: 22px;
+    padding-top: 19px;
     width: 100%;
     background-image: url(./image/header.png);
     z-index: 1;
     &-top{
         border-bottom: 1px solid #a7a7a7;
-        padding-bottom: 18px;
+        padding-bottom: 16px;
     }
     &-icon{
         display: flex;
         align-items: center;
-        gap:0 29px;
-        margin-left: 53px;
+        gap: 0 23px;
+        margin-left: 87px;
     }
 }
