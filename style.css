@@ -203,24 +203,19 @@ body {
 }
 
 .heading {
-  font-size: 247px;
+  font-size: 241px;
   text-align: center;
   font-family: "BoldCondensed", sans-serif;
   color: #5993b2;
-  font-weight: 400;
-  margin-bottom: -127px;
+  font-weight: 500;
+  margin-bottom: -142px;
 }
 
-.heading1 {
-  font-size: 247px;
-  text-align: center;
-  font-family: "RobotoCondensed", sans-serif;
-  color: #e2e2e2;
-  font-weight: 400;
-  margin-bottom: -127px;
+li {
+  list-style: none;
 }
 
-header {
+.header {
   padding-bottom: 15px;
   background: transparent;
   border-bottom: 1px solid;
@@ -229,13 +224,25 @@ header {
   background-image: url(./image/header.png);
   z-index: 1;
 }
-header-top {
-  border-bottom: 1px solid white;
+.header-top {
+  border-bottom: 1px solid #a7a7a7;
+  padding-bottom: 18px;
+}
+.header-icon {
+  display: flex;
+  align-items: center;
+  gap: 0 29px;
+  margin-left: 53px;
 }
 
 .main-menu {
   display: flex;
   align-items: center;
+}
+.main-menu .active::after {
+  width: 100%;
+  left: 0;
+  right: auto;
 }
 
 .menu-main {
@@ -247,28 +254,47 @@ header-top {
   font-weight: 400;
   justify-content: space-between;
 }
+.menu-link {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  color: #d8d8d8;
+  transition: all 0.2s linear;
+}
+.menu-link::after {
+  position: absolute;
+  content: "";
+  bottom: -30px;
+  left: auto;
+  right: 0px;
+  margin-bottom: -19px;
+  width: 0;
+  height: 4px;
+  background-color: #17749e;
+  transition: all 0.2s linear;
+}
+.menu-link:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+.menu-toggle {
+  display: none;
+  width: 30px;
+  height: 20px;
+}
+.menu-toggle span {
+  pointer-events: none;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  display: block;
+}
 
 .logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.header-icon {
-  display: flex;
-  align-items: center;
-  gap: 0 29px;
-  margin-left: 53px;
-}
-
-.menu-link {
-  text-decoration: none;
-  color: #d8d8d8;
-  font-family: "OpenSansRegular", sans-serif;
-}
-
-li {
-  list-style: none;
 }
 
 .creative {
@@ -429,6 +455,10 @@ li {
   height: 100%;
 }
 
+.blog {
+  padding-top: 92px;
+  padding-bottom: 108px;
+}
 .blog-title {
   font-size: 30px;
   font-family: "GothamBook", sans-serif;
@@ -446,37 +476,44 @@ li {
   color: #11749e;
   font-family: "GothamMedium", sans-serif;
   font-size: 18px;
+  font-size: 18px;
+  font-weight: 400;
   text-align: center;
-  margin-bottom: 29px;
+  margin-top: 40px;
 }
 .blog-desc {
+  padding: 30px 12px 0 12px;
   text-align: center;
-  line-height: 25px;
+  line-height: 1.5;
   font-size: 15px;
   font-family: "GothamBook", sans-serif;
+  color: #222222;
+  font-weight: 400;
 }
 .blog-icon {
-  margin-bottom: 44px;
+  max-width: 100%;
   text-align: center;
+}
+.blog-heading {
+  color: #e2e2e2;
 }
 
 .cum {
+  padding-top: 112px;
+  padding-bottom: 155px;
   background-color: #11749e;
 }
-.cum-connet {
-  display: flex;
-  align-items: center;
-  gap: 33px;
-  margin-top: 112px;
-}
 .cum-img {
-  margin-bottom: 206px;
+  height: 66px;
+  margin-top: 4px;
 }
 .cum-text {
+  line-height: 1.5;
+  margin-right: 19px;
+  margin-left: 10px;
   color: #ffffff;
-  margin-bottom: 153px;
+  font-weight: 400;
   font-size: 15px;
-  line-height: 20px;
   font-family: "GothamBook", sans-serif;
 }
 
@@ -494,7 +531,7 @@ li {
 
 @media (max-width: 1200px) {
   .header-icon {
-    margin-left: 7px;
+    margin-left: 20px;
   }
   .menu-main {
     margin-left: -97px;
@@ -502,7 +539,7 @@ li {
 }
 @media (max-width: 1110px) {
   .header-icon {
-    margin-left: 0px;
+    margin-left: 26px;
   }
   .logo {
     margin-left: -11px;
@@ -516,7 +553,7 @@ li {
 }
 @media (max-width: 991px) {
   .header-icon {
-    margin-left: 0px;
+    margin-left: 20px;
   }
   .logo {
     margin-left: -70px;
@@ -526,9 +563,6 @@ li {
   }
 }
 @media (max-width: 938px) {
-  .main-menu {
-    display: none;
-  }
   .creative {
     padding-top: 126px;
   }
@@ -537,13 +571,18 @@ li {
     font-size: 1.5em;
     letter-spacing: 11.9px;
   }
-  .logo {
-    margin-left: -10px;
+  .header-icon {
+    margin-left: 20px;
   }
 }
 @media (max-width: 768px) {
   .main-menu {
     display: none;
+  }
+  .menu-toggle {
+    display: subgrid;
+    justify-content: space-between;
+    flex-direction: column;
   }
   .creative {
     padding-top: 121px;

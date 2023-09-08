@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     .header-icon {
-        margin-left: 7px;
+        margin-left: 20px;
     }
     .menu-main {
         margin-left: -97px;
@@ -8,7 +8,7 @@
 }
 @media (max-width: 1110px) {
     .header-icon {
-        margin-left: 0px;
+        margin-left: 26px;
     }
     .logo {
             margin-left: -11px;
@@ -23,7 +23,7 @@
 }
 @media (max-width: 991px) {
     .header-icon {
-        margin-left: 0px;
+        margin-left: 20px;
     }
     .logo {
             margin-left: -70px;
@@ -34,9 +34,9 @@
 
 }
 @media (max-width: 938px) {
-   .main-menu{
-    display: none;
-   }
+//    .main-menu{
+//     display: none;
+//    }
    .creative {
     padding-top: 126px;
 }
@@ -45,15 +45,26 @@
     font-size: 1.5em;
     letter-spacing: 11.9px;
 }
-.logo {
-    margin-left: -10px;
+// .logo {
+//     margin-left: -67px;
+// }
+// .logo {
+//     margin-left: 32px;
+// }
+.header-icon {
+    margin-left: 20px;
 }
-
 }
 
 @media (max-width: 768px) {
     .main-menu {
         display: none;
+    }
+  
+    .menu-toggle{
+        display: subgrid;
+        justify-content: space-between;
+        flex-direction: column;
     }
     .creative {
         padding-top: 121px;

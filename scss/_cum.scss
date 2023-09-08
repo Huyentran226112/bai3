@@ -1,19 +1,18 @@
 .cum{
+    padding-top: 112px;
+    padding-bottom: 155px;
     background-color: #11749e;
-    &-connet {
-        display: flex;
-        align-items: center;
-        gap: 33px;
-        margin-top: 112px;
+    &-img{
+        height: 66px;
+        margin-top: 4px;
     }
-   &-img{
-    margin-bottom:206px;
-   }
     &-text{
+        line-height: 1.5;
+        margin-right: 19px;
+        margin-left: 10px;
         color: #ffffff;
-        margin-bottom:153px;
+        font-weight: 400;
         font-size: 15px;
-        line-height: 20px;
-        font-family: 'GothamBook', sans-serif;
+        font-family: "GothamBook", sans-serif;
     }
 }
