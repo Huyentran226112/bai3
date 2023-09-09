@@ -14,10 +14,6 @@
     .logo {
         margin-left: -53px;
     }
-    // .creative-text {
-    //     font-family: "Gotham";
-    //     font-size: 0.9em;
-    // }
 }
 @media (max-width: 1110px) {
     .header-icon {
@@ -33,10 +29,7 @@
         font-family: "Gotham";
         font-size: 0.9em;
     }
-    .logo {
-        margin-left: -86px;
-       
-    }
+   
     .menu-link {
         font-size: 13px;
     }
@@ -48,9 +41,9 @@
     .header-icon {
         margin-left: 20px;
     }
-  
+   
     .menu-main {
-        margin-left: -151px;
+        margin-left: -128px;
     }
 
 }
@@ -58,14 +51,16 @@
    .creative {
     padding-top: 126px;
 }
+.header-icon {
+    margin-left: -8px;
+}
 .creative-text {
     text-align: center;
     font-size: 1.5em;
     letter-spacing: 11.9px;
 }
-.header-icon {
-    margin-left: 20px;
-    // display: none;
+.menu-main {
+    margin-left: -130px;
 }
 .footer-copyright {
     text-align: center;
@@ -85,6 +80,7 @@
     padding-bottom: 0px;
     background-color: #11749e;
 }
+
 }
 
 @media (max-width: 767px) {
@@ -128,12 +124,18 @@
     .akita{
         flex-direction: column;
     }
+    .menu-right {
+        display: none;
+    }
 }
 @media (max-width: 630px) {
     .creative-text {
         line-height: 32px;
         font-size: 1.3em;
         letter-spacing: 10px;
+    }
+    .menu-right {
+        display: none;
     }
 }
 @media (max-width: 485px) {
@@ -143,5 +145,7 @@
     .logo {
         margin-left: 0px;
     }
-   
+    .menu-right {
+        display: none;
+    }
 }

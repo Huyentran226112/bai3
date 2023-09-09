@@ -257,7 +257,7 @@ a.menu-link-mobile {
   margin-top: 7px;
   display: flex;
   align-items: center;
-  margin-left: -2.9px;
+  margin-left: -28.9px;
 }
 .main-menu .active::after {
   width: 100%;
@@ -267,7 +267,7 @@ a.menu-link-mobile {
 
 .menu-main {
   display: flex;
-  gap: 0 52px;
+  gap: 0 48px;
   text-decoration: none;
   align-items: center;
   font-size: 18.1px;
@@ -748,9 +748,6 @@ body {
     font-family: "Gotham";
     font-size: 0.9em;
   }
-  .logo {
-    margin-left: -86px;
-  }
   .menu-link {
     font-size: 13px;
   }
@@ -763,20 +760,23 @@ body {
     margin-left: 20px;
   }
   .menu-main {
-    margin-left: -151px;
+    margin-left: -128px;
   }
 }
 @media (max-width: 938px) {
   .creative {
     padding-top: 126px;
   }
+  .header-icon {
+    margin-left: -8px;
+  }
   .creative-text {
     text-align: center;
     font-size: 1.5em;
     letter-spacing: 11.9px;
   }
-  .header-icon {
-    margin-left: 20px;
+  .menu-main {
+    margin-left: -130px;
   }
   .footer-copyright {
     text-align: center;
@@ -837,12 +837,18 @@ body {
   .akita {
     flex-direction: column;
   }
+  .menu-right {
+    display: none;
+  }
 }
 @media (max-width: 630px) {
   .creative-text {
     line-height: 32px;
     font-size: 1.3em;
     letter-spacing: 10px;
+  }
+  .menu-right {
+    display: none;
   }
 }
 @media (max-width: 485px) {
@@ -851,5 +857,8 @@ body {
   }
   .logo {
     margin-left: 0px;
+  }
+  .menu-right {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
