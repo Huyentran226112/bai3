@@ -194,9 +194,11 @@ body {
   text-align: center;
   color: #fff;
   font-size: 18px;
+  margin-left: -16px;
   font-weight: 400;
+  margin-top: -2px;
   font-family: "GothamMedium", sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .desc {
@@ -209,7 +211,7 @@ body {
 .heading {
   font-size: 312px;
   text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto";
   color: #5993b2;
   font-weight: 500;
   margin-bottom: -142px;
@@ -247,14 +249,15 @@ a.menu-link-mobile {
   display: flex;
   align-items: center;
   gap: 0 23px;
-  margin-left: 87px;
+  margin-bottom: -11px;
+  margin-left: 40px;
 }
 
 .main-menu {
   margin-top: 7px;
   display: flex;
   align-items: center;
-  margin-left: 3.1px;
+  margin-left: -2.9px;
 }
 .main-menu .active::after {
   width: 100%;
@@ -264,7 +267,7 @@ a.menu-link-mobile {
 
 .menu-main {
   display: flex;
-  gap: 0 47px;
+  gap: 0 52px;
   text-decoration: none;
   align-items: center;
   font-size: 18.1px;
@@ -407,7 +410,7 @@ body {
 .agenry {
   background-color: #11749e;
   padding-top: 167px;
-  padding-bottom: 120px;
+  padding-bottom: 107px;
 }
 .agenry-title {
   font-size: 36px;
@@ -427,9 +430,9 @@ body {
   border-radius: 50%;
   border: 1px solid #2e85aa;
   overflow: hidden;
-  width: 113px;
-  margin: 0px auto;
-  height: 107px;
+  width: 138px;
+  margin: -8px auto;
+  height: 136px;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -446,16 +449,19 @@ body {
   background-color: #222222;
 }
 .akita-left {
-  padding-bottom: 113px;
+  padding-bottom: 73px;
+  padding-left: 112px;
   padding-top: 82px;
 }
 .akita-title {
   color: white;
   margin-bottom: 43px;
   font-size: 25px;
-  font-family: "GothamMedium", sans-serif;
+  font-family: "Gotham";
 }
 .akita-text {
+  margin-top: -11px;
+  margin-left: -3px;
   color: white;
   font-family: "GothamBook", sans-serif;
   font-size: 15px;
@@ -483,6 +489,7 @@ body {
   background-image: url(./image/akita.png);
   width: 100%;
   height: 100%;
+  margin-left: -7px;
   background-size: cover;
 }
 @media (max-width: 767px) {
@@ -532,13 +539,16 @@ body {
   color: black;
   margin-bottom: 43px;
   font-size: 25px;
-  font-family: "GothamMedium", sans-serif;
+  margin-left: -24px;
+  font-family: "Gotham Medium";
 }
 .dog-text {
   color: black;
   font-family: "GothamBook", sans-serif;
   font-size: 15px;
   line-height: 26px;
+  margin-top: -12px;
+  margin-left: -25px;
   max-width: 421px;
 }
 .dog-text1 {
@@ -550,13 +560,15 @@ body {
 }
 .dog-date {
   color: black;
+  margin-top: 41px;
+  margin-left: -23px;
   margin-bottom: 15px;
   font-size: 13px;
   font-family: "GothamBook", sans-serif;
 }
 .dog-rghit {
   padding-top: 64px;
-  padding-bottom: 99px;
+  padding-bottom: 75px;
 }
 .dog-desc {
   width: 360px;
@@ -566,6 +578,7 @@ body {
   background-image: url(./image/akita1.png);
   width: 100%;
   height: 100%;
+  margin-left: -8px;
   background-size: cover;
 }
 @media (max-width: 767px) {
@@ -605,8 +618,8 @@ body {
 }
 
 .blog {
-  padding-top: 92px;
-  padding-bottom: 108px;
+  padding-top: 0px;
+  padding-bottom: 32px;
 }
 .blog-title {
   font-size: 30px;
@@ -664,7 +677,7 @@ body {
 
 .cum {
   padding-top: 112px;
-  padding-bottom: 155px;
+  padding-bottom: 131px;
   background-color: #11749e;
 }
 .cum-img {
@@ -700,8 +713,9 @@ body {
   color: white;
   font-family: "RobotoCondensed", sans-serif;
   font-size: 13px;
-  margin-top: 49px;
-  margin-bottom: 30px;
+  margin-top: 42px;
+  margin-bottom: 32px;
+  margin-left: -39px;
 }
 
 @media (max-width: 1200px) {
@@ -728,10 +742,7 @@ body {
     margin-left: -151px;
   }
   .creative-title {
-    font-size: 8em;
-  }
-  a.menu-link-mobile {
-    display: none;
+    font-size: 7em;
   }
 }
 @media (max-width: 991px) {
@@ -756,6 +767,25 @@ body {
   }
   .header-icon {
     margin-left: 20px;
+    display: none;
+  }
+  .footer-copyright {
+    text-align: center;
+  }
+  .akita-left {
+    padding-bottom: 73px;
+    padding-left: 47px;
+    padding-top: 82px;
+  }
+  .dog-rghit {
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 75px;
+  }
+  .cum {
+    padding-top: 37px;
+    padding-bottom: 0px;
+    background-color: #11749e;
   }
 }
 @media (max-width: 767px) {

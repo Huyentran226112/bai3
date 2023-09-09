@@ -23,10 +23,7 @@
         margin-left: -151px;
     }
     .creative-title {
-        font-size: 8em;
-    }
-    a.menu-link-mobile {
-        display: none;
+        font-size: 7em;
     }
 }
 @media (max-width: 991px) {
@@ -53,6 +50,25 @@
 }
 .header-icon {
     margin-left: 20px;
+    display: none;
+}
+.footer-copyright {
+    text-align: center;
+}
+.akita-left {
+    padding-bottom: 73px;
+    padding-left: 47px;
+    padding-top: 82px;
+}   
+.dog-rghit {
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 75px;
+}
+.cum {
+    padding-top: 37px;
+    padding-bottom: 0px;
+    background-color: #11749e;
 }
 }
 

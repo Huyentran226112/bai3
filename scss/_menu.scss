@@ -2,7 +2,7 @@
     margin-top: 7px;
     display: flex;
     align-items: center;
-    margin-left: 3.1px;
+    margin-left:  -2.9px;
     .active {
         &::after {
             width: 100%;
@@ -14,13 +14,13 @@
 .menu{
     &-main{
         display: flex;
-        gap: 0 47px;
-        text-decoration: none;
-        align-items: center;
-        font-size: 18.1px;
-        font-family: 'MyriadProRegular', sans-serif;
-        font-weight: 400;
-        justify-content: space-between;
+            gap: 0 52px;
+            text-decoration: none;
+            align-items: center;
+            font-size: 18.1px;
+            font-family: "MyriadProRegular", sans-serif;
+            font-weight: 400;
+            justify-content: space-between;
     }
     &-link {
         display: inline-block;
