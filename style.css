@@ -423,7 +423,7 @@ body {
   margin-bottom: 148px;
 }
 .agenry-icon {
-  padding: 50px;
+  padding: 54px;
   background: #2e85aa;
 }
 .agenry-icon-gap {
@@ -738,6 +738,9 @@ body {
   .header-icon {
     margin-left: 26px;
   }
+  .main-menu {
+    margin-left: 73.1px;
+  }
   .menu-main {
     margin-left: -151px;
   }
@@ -760,7 +763,10 @@ body {
     margin-left: 20px;
   }
   .menu-main {
-    margin-left: -128px;
+    margin-left: -219px;
+  }
+  .logo {
+    margin-left: -64px;
   }
 }
 @media (max-width: 938px) {
@@ -770,13 +776,18 @@ body {
   .header-icon {
     margin-left: -8px;
   }
+  .logo {
+    margin-left: -64px;
+    align-items: center;
+    justify-content: space-between;
+  }
   .creative-text {
     text-align: center;
     font-size: 1.5em;
     letter-spacing: 11.9px;
   }
   .menu-main {
-    margin-left: -130px;
+    margin-left: -219px;
   }
   .footer-copyright {
     text-align: center;
