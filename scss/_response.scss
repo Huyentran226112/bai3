@@ -3,7 +3,7 @@
         margin-left: 20px;
     }
     .menu-main {
-        margin-left:-100px;
+        margin-left:-120px;
     }
     a.menu-link-mobile {
         display: none;
@@ -14,6 +14,10 @@
     .logo {
         margin-left: -53px;
     }
+    // .creative-text {
+    //     font-family: "Gotham";
+    //     font-size: 0.9em;
+    // }
 }
 @media (max-width: 1110px) {
     .header-icon {
@@ -24,6 +28,20 @@
     }
     .creative-title {
         font-size: 7em;
+    }
+    .creative-text {
+        font-family: "Gotham";
+        font-size: 0.9em;
+    }
+    .logo {
+        margin-left: -86px;
+       
+    }
+    .menu-link {
+        font-size: 13px;
+    }
+    .header-icon {
+        margin-left: -9px;
     }
 }
 @media (max-width: 991px) {
@@ -40,9 +58,6 @@
    .creative {
     padding-top: 126px;
 }
-.main-menu {
-    display: none;
-}
 .creative-text {
     text-align: center;
     font-size: 1.5em;
@@ -50,7 +65,7 @@
 }
 .header-icon {
     margin-left: 20px;
-    display: none;
+    // display: none;
 }
 .footer-copyright {
     text-align: center;
