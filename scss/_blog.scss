@@ -1,12 +1,14 @@
-.blog{
-        padding-top: 92px;
-        padding-bottom: 108px;
+.blog {
+    padding-top: 92px;
+    padding-bottom: 108px;
+
     &-title {
         font-size: 30px;
         font-family: "GothamBook", sans-serif;
         text-align: center;
         margin-bottom: 120px;
     }
+
     &-clean {
         text-align: center;
         font-family: 'GothamBook', sans-serif;
@@ -14,7 +16,8 @@
         font-weight: 400;
         margin-bottom: 77px;
     }
-    &-text{
+
+    &-text {
         color: #11749e;
         font-family: 'GothamMedium', sans-serif;
         font-size: 18px;
@@ -23,7 +26,8 @@
         text-align: center;
         margin-top: 40px;
     }
-    &-desc{
+
+    &-desc {
         padding: 30px 12px 0 12px;
         text-align: center;
         line-height: 1.5;
@@ -32,12 +36,31 @@
         color: #222222;
         font-weight: 400;
     }
+
     &-icon {
         max-width: 100%;
         text-align: center;
     }
-    &-heading{
+
+    &-heading {
         color: #e2e2e2;
     }
-   
+
+    @media screen and (max-width: 991px) {
+        &-col {
+            flex: 0 0 50%;
+            max-width: 50%;
+            margin-bottom: 50px;
+        }
+    }
+    @media screen and (max-width: 767.98px) {
+        &-col {
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+    }
+    
+
 }
