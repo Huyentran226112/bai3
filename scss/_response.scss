@@ -14,9 +14,6 @@
     .logo {
         margin-left: -53px;
     }
-    // .main-menu {
-    //     margin-left: 66.1px;
-    // }
 }
 @media (max-width: 1110px) {
     .header-icon {
@@ -142,15 +139,58 @@
     .menu-right {
         display: none;
     }
+    .main-menu {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background: #FFFFFF;
+        right: -69px;
+        text-align: left !important;
+        display: none;
+        transition: top 0.4s;
+        -webkit-transition: top 0.4s;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        flex-direction: column;
+        box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+        padding-bottom: 15px;
+        top: 7px;
+        margin-left: 0px;
+        z-index: 1;
+    }
+    .main-menu {
+        position: fixed;
+        height: 100vh;
+        right: 0px;
+        top: -7px;
+        z-index: 1;
+    }
+    .menu-main li {
+        display: block;
+        padding: 0px 0px !important;
+        width: 100%;
+
+    }   
+     .menu-main a {
+        padding: 11px 0px;
+        color: black;
+    }
+    .menu-left{
+        padding: 0px 20px;
+        padding-top: 14px;
+    }
+    .menu-link::after{
+        content: none;
+    }
+    a.menu-link.active {
+        color: #17749e;
+    }
 }
 @media (max-width: 630px) {
     .creative-text {
         line-height: 32px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         letter-spacing: 10px;
-    }
-    .menu-right {
-        display: none;
     }
 }
 @media (max-width: 485px) {

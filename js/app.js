@@ -1,17 +1,5 @@
-window.addEventlistener("load" , function () {
-	const menu = document.querySelector(".menu");
-	const menuBg = document.querySelector(".menu-bg");
-	const menuToggle = document.querySelector(".menu-toggle");
-	const menuClose = document.querySelector(".menu-close");
-	menuToggle.addEventlistener("click", handleToggleMenu);
-	function handleToggleMenu(e) {
-		menuBg.classList.add("is-active");
-		menu.classList.add("is-active");
-		menuClose.classList.add("is-active");
-	}
-	menuClose.addEventListener("click", function() {
-		menuBg.classList.remove("is-active");
-		menu.classList.remove("is-active");
-		this.classList.remove("is-active");
+jQuery( document ).ready( function(){
+	jQuery('.menu-toggle').on('click',function(){
+		jQuery('.main-menu').toggle();
 	});
-})
+});
